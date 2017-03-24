@@ -1,0 +1,9 @@
+package: .
+import:
+- package: github.com/gliderlabs/logspout
+  subpackages:
+  - router
+- package: github.com/sendgridlabs/go-kinesis
+  version: e8e276c8e2660f0e6fb034860c3de89309ae61fe
+  subpackages:
+  - batchproducer
